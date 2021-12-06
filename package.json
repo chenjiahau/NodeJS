@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "webpack --stats detailed"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
