@@ -7,6 +7,14 @@ const config = {
     filename: "bundle.js",
   },
   mode: "none",
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpg)$/,
+        type: "asset/resource",
+      },
+    ],
+  },
 };
 
 module.exports = config;
