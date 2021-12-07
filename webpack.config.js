@@ -5,6 +5,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
     filename: "bundle.js",
+    publicPath: "./dist/",
   },
   mode: "none",
   module: {
