@@ -6,7 +6,7 @@ const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
-    filename: "bundle.js",
+    filename: "bundle.[contenthash].js",
     publicPath: "./dist/",
   },
   mode: "none",
@@ -48,7 +48,7 @@ const config = {
   },
   plugins: [
     new TerserPlugin(),
-    new MiniCssExtractPlugin({ filename: "style.css" }),
+    new MiniCssExtractPlugin({ filename: "style.[contenthash].css" }),
   ],
 };
 
