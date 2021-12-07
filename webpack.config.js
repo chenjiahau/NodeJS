@@ -19,6 +19,10 @@ const config = {
           },
         },
       },
+      {
+        test: /\.txt/,
+        type: "asset/source",
+      },
     ],
   },
 };

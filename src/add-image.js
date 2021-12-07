@@ -1,8 +1,9 @@
 import car from "./img/car.jpg";
+import imgText from "./img-text.txt";
 
 function addImage() {
   const img = document.createElement("img");
-  img.alt = "Car";
+  img.alt = imgText;
   img.width = 300;
   img.src = car;
 
