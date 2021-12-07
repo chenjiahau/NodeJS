@@ -1,6 +1,7 @@
 const path = require("path");
 const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const config = {
   entry: "./src/index.js",
@@ -49,6 +50,12 @@ const config = {
   plugins: [
     new TerserPlugin(),
     new MiniCssExtractPlugin({ filename: "style.[contenthash].css" }),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [
+        "**/*",
+        path.resolve(__dirname, "./build/**/*"),
+      ],
+    }),
   ],
 };
 
