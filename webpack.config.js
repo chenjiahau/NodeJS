@@ -12,7 +12,12 @@ const config = {
     rules: [
       {
         test: /\.(png|jpg)$/,
-        type: "asset/inline",
+        type: "asset",
+        parser: {
+          dataUrlCondition: {
+            maxSize: 3 * 1024, // 3kb
+          },
+        },
       },
     ],
   },
