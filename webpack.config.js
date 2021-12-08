@@ -2,13 +2,14 @@ const path = require("path");
 const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
     filename: "bundle.[contenthash].js",
-    publicPath: "./dist/",
+    publicPath: "",
   },
   mode: "none",
   module: {
@@ -56,6 +57,7 @@ const config = {
         path.resolve(__dirname, "./build/**/*"),
       ],
     }),
+    new HtmlWebpackPlugin(),
   ],
 };
 
