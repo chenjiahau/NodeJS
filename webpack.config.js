@@ -57,7 +57,13 @@ const config = {
         path.resolve(__dirname, "./build/**/*"),
       ],
     }),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: "Hello World",
+      filename: "index.html",
+      meta: {
+        description: "Some description",
+      },
+    }),
   ],
 };
 
