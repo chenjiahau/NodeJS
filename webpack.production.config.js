@@ -15,6 +15,11 @@ const config = {
     publicPath: "",
   },
   mode: "production",
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
   module: {
     rules: [
       {
