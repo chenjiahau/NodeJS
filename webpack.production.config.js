@@ -5,10 +5,13 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
-  entry: "./src/index.js",
+  entry: {
+    index: "./src/index_page.js",
+    image: "./src/image_page.js",
+  },
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
-    filename: "bundle.[contenthash].js",
+    filename: "[name].[contenthash].js",
     publicPath: "",
   },
   mode: "production",
@@ -54,7 +57,7 @@ const config = {
   },
   plugins: [
     // new TerserPlugin(), because in production mode is default
-    new MiniCssExtractPlugin({ filename: "style.[contenthash].css" }),
+    new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [
         "**/*",
@@ -64,8 +67,17 @@ const config = {
     new HtmlWebpackPlugin({
       title: "Hello World",
       filename: "index.html",
-      template: "src/index.hbs",
+      template: "src/page_template.hbs",
       description: "Description",
+      minify: true, // default is true on production mode
+      chunks: ["index"], // entry point name
+    }),
+    new HtmlWebpackPlugin({
+      title: "Hello World",
+      filename: "image.html",
+      description: "Image",
+      template: "src/page_template.hbs",
+      chunks: ["image"],
     }),
   ],
 };

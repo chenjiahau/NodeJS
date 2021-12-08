@@ -3,10 +3,13 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
-  entry: "./src/index.js",
+  entry: {
+    index: "./src/index_page.js",
+    image: "./src/image_page.js",
+  },
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
-    filename: "bundle.js",
+    filename: "[name].[contenthash].js",
     publicPath: "",
   },
   mode: "development",
@@ -70,8 +73,18 @@ const config = {
     new HtmlWebpackPlugin({
       title: "Hello World",
       filename: "index.html",
-      template: "src/index.hbs",
+      template: "src/page_template.hbs",
       description: "Description",
+      minify: false,
+      chunks: ["index"], // entry point name
+    }),
+    new HtmlWebpackPlugin({
+      title: "Hello World",
+      filename: "image.html",
+      description: "Image",
+      template: "src/page_template.hbs",
+      minify: false,
+      chunks: ["image"],
     }),
   ],
 };
