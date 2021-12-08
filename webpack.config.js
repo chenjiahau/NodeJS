@@ -46,6 +46,10 @@ const config = {
           },
         },
       },
+      {
+        test: /\.hbs$/,
+        use: ["handlebars-loader"],
+      },
     ],
   },
   plugins: [
@@ -60,9 +64,8 @@ const config = {
     new HtmlWebpackPlugin({
       title: "Hello World",
       filename: "index.html",
-      meta: {
-        description: "Some description",
-      },
+      template: "src/index.hbs",
+      description: "Description",
     }),
   ],
 };
