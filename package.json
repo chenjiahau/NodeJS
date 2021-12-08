@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "webpack --stats detailed"
+    "build": "webpack --config webpack.production.config --stats detailed",
+    "dev": "webpack --config webpack.dev.config --stats detailed"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

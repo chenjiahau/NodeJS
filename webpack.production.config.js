@@ -1,5 +1,5 @@
 const path = require("path");
-const TerserPlugin = require("terser-webpack-plugin");
+// const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -11,7 +11,7 @@ const config = {
     filename: "bundle.[contenthash].js",
     publicPath: "",
   },
-  mode: "none",
+  mode: "production",
   module: {
     rules: [
       {
@@ -53,7 +53,7 @@ const config = {
     ],
   },
   plugins: [
-    new TerserPlugin(),
+    // new TerserPlugin(), because in production mode is default
     new MiniCssExtractPlugin({ filename: "style.[contenthash].css" }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [
