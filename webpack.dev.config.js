@@ -10,6 +10,16 @@ const config = {
     publicPath: "",
   },
   mode: "development",
+  devServer: {
+    port: 9000,
+    static: {
+      directory: path.resolve(__dirname, "./dist"), // abolsute path
+    },
+    devMiddleware: {
+      index: "index.html",
+      writeToDisk: true, // generate files in memory and doesn't save them to disk
+    },
+  },
   module: {
     rules: [
       {

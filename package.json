@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "webpack --config webpack.production.config --stats detailed",
-    "dev": "webpack --config webpack.dev.config --stats detailed"
+    "dev": "webpack serve --config webpack.dev.config --hot"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -18,7 +18,8 @@
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.2.5",
     "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
     "handlebars": "^4.7.7"
