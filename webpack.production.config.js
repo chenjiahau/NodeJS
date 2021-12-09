@@ -12,7 +12,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "./dist"), // abolsute path
     filename: "[name].[contenthash].js",
-    publicPath: "",
+    publicPath: "/static/",
   },
   mode: "production",
   optimization: {
