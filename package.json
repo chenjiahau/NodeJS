@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": " node-sass -o css scss/main.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/chenjiahau/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjiahau/NodeJS/issues"
+  },
+  "homepage": "https://github.com/chenjiahau/NodeJS#readme",
+  "dependencies": {
+    "global": "^4.4.0",
+    "node-sass": "^7.0.0"
+  }
+}
