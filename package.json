@@ -6,10 +6,6 @@
   "scripts": {
     "watch": " node-sass -o css scss/main.scss -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/chenjiahau/NodeJS.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
