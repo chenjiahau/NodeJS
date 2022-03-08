@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.config --hot",
+    "test": "echo \"Error: no text specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/chenjiahau/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjiahau/NodeJS/issues"
+  },
+  "homepage": "https://github.com/chenjiahau/NodeJS#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.7",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
