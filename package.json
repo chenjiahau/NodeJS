@@ -1,0 +1,30 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/chenjiahau/NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjiahau/NodeJS/issues"
+  },
+  "homepage": "https://github.com/chenjiahau/NodeJS#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "dayjs-random": "^1.0.1",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
