@@ -9,9 +9,6 @@ import { Parser } from 'json2csv';
 dayjs.extend(dayjsRandom);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const categoryList = [];
-const productList = [];
-const sellingLogList = [];
 
 const converToCSV = (jsonObj) => {
   const json2csvParser = new Parser();
@@ -21,6 +18,11 @@ const converToCSV = (jsonObj) => {
 const outputFile = (filename, content) => {
   fs.writeFileSync(path.join(__dirname, 'files', filename), content);
 }
+
+// Product
+const categoryList = [];
+const productList = [];
+const sellingLogList = [];
 
 const createCategoryListCSV = () => {
   while (categoryList.length < 10) {
@@ -82,3 +84,62 @@ const createSellingLogCSV = () => {
 createCategoryListCSV();
 createProductListCSV();
 createSellingLogCSV();
+
+// Photo
+const userList = [];
+const photoList = [];
+const commentList = [];
+
+const createUserCSV = () => {
+  while (userList.length < 10) {
+    const name = faker.internet.userName();
+    const userNameList = userList.map(user => user.name);
+
+    if (userNameList.indexOf(name) === -1) {
+      userList.push({
+        id: userList.length + 1,
+        name
+      });
+    }
+  }
+
+  outputFile('user.csv', converToCSV(userList));
+}
+
+const createPhotoListCSV = () => {
+  while (photoList.length < 10) {
+    const photoUrl = faker.image.image();
+    const photoUrlList = photoList.map(photo => photo.photoUrl);
+
+    if (photoUrlList.indexOf(photoUrl) === -1) {
+      photoList.push({
+        id: photoList.length + 1,
+        photo_url: photoUrl,
+        user_id: Math.floor(Math.random() * 9) + 1
+      });
+    }
+  }
+
+  outputFile('photo.csv', converToCSV(photoList));
+}
+
+const createCommentListCSV = () => {
+  while (commentList.length < 100) {
+    const commentText = faker.lorem.paragraph();
+    const photoId = Math.floor(Math.random() * 9) + 1;
+    const photo = photoList[photoId];
+
+    commentList.push({
+      id: commentList.length + 1,
+      comment: commentText,
+      photo_id: photoId,
+      user_id: photo.user_id,
+    });
+  }
+
+  outputFile('comment.csv', converToCSV(commentList));
+}
+
+createUserCSV();
+createPhotoListCSV();
+createCommentListCSV();
