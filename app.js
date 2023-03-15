@@ -10,6 +10,20 @@ dayjs.extend(dayjsRandom);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const randomDate = (start, end) => {
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+  const d = new Date(startDate.getTime() + Math.random() * (endDate.getTime() - startDate.getTime()));
+  let month = '' + (d.getMonth() + 1);
+  let day = '' + d.getDate();
+  let year = d.getFullYear();
+
+  if (month.length < 2) month = '0' + month;
+  if (day.length < 2) day = '0' + day;
+
+  return [year, month, day].join('-');
+}
+
 const converToCSV = (jsonObj) => {
   const json2csvParser = new Parser();
   return json2csvParser.parse(jsonObj);
@@ -89,6 +103,8 @@ const outputFile = (filename, content) => {
 const userList = [];
 const photoList = [];
 const commentList = [];
+const captionTagList = [];
+const photoTagList = [];
 
 const createUserCSV = () => {
   while (userList.length < 10) {
@@ -143,6 +159,36 @@ const createCommentListCSV = () => {
   outputFile('comment.csv', converToCSV(commentList));
 }
 
+const createCaptionTagListCSV = () => {
+  while (captionTagList.length < 100) {
+    const userId = Math.floor(Math.random() * userList.length) + 1;
+
+    captionTagList.push({
+      id: captionTagList.length + 1,
+      user_id: userId,
+      created_at: randomDate('2020-01-01', '2022-12-31')
+    });
+  }
+
+  outputFile('caption-tag.csv', converToCSV(captionTagList));
+}
+
+const createPhotoTagListCSV = () => {
+  while (photoTagList.length < 100) {
+    const userId = Math.floor(Math.random() * userList.length) + 1;
+
+    photoTagList.push({
+      id: photoTagList.length + 1,
+      user_id: userId,
+      created_at: randomDate('2020-01-01', '2022-12-31')
+    });
+  }
+
+  outputFile('photo-tag.csv', converToCSV(photoTagList));
+}
+
 createUserCSV();
 createPhotoListCSV();
 createCommentListCSV();
+createCaptionTagListCSV();
+createPhotoTagListCSV();
