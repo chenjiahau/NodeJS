@@ -105,6 +105,7 @@ const photoList = [];
 const commentList = [];
 const captionTagList = [];
 const photoTagList = [];
+const followerList = [];
 
 const createUserCSV = () => {
   while (userList.length < 10) {
@@ -187,8 +188,37 @@ const createPhotoTagListCSV = () => {
   outputFile('photo-tag.csv', converToCSV(photoTagList));
 }
 
+const createFollowerListCSV = () => {
+  const userIdList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const leaderUserIdList = [];
+
+  while (leaderUserIdList.length < 5) {
+    const leaderUserId = Math.floor(Math.random() * 10) + 1;
+    if (leaderUserIdList.indexOf(leaderUserId) === -1) leaderUserIdList.push(leaderUserId);
+  }
+
+  for (const leaderUserId of leaderUserIdList) {
+    let r = Math.floor(Math.random() * 6);
+    let canFollowerUserIdList = userIdList.filter(userId => userId !== leaderUserId);
+
+    while (canFollowerUserIdList.length > r) {
+      const index = Math.floor(Math.random() * canFollowerUserIdList.length);
+      followerList.push({
+        id: followerList.length + 1,
+        leader_id: leaderUserId,
+        follower_id: canFollowerUserIdList[index]
+      });
+
+      canFollowerUserIdList = canFollowerUserIdList.filter(followerUserId => followerUserId !== canFollowerUserIdList[index]);
+    }
+  }
+
+  outputFile('follower.csv', converToCSV(followerList));
+}
+
 createUserCSV();
 createPhotoListCSV();
 createCommentListCSV();
 createCaptionTagListCSV();
 createPhotoTagListCSV();
+createFollowerListCSV();
