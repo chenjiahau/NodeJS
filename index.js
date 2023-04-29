@@ -36,19 +36,15 @@ while (true) {
 
   switch (answer) {
     case 1:
-      util.clearScreen();
       func.addANewLesson();
       break;
     case 2:
-      util.clearScreen();
       func.listAllLessons();
       break;
     case 3:
-      util.clearScreen();
       func.listLessonContent();
       break;
     case 4:
-      util.clearScreen();
       func.testLesson();
       break;
   }
