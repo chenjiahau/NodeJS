@@ -70,7 +70,7 @@ const testLesson = () => {
     } else {
       const lineList = content.split('\n');
       for (const line of lineList) {
-        const ary = line.split(',');
+        const ary = line.split('|');
         wordList.push({
           word: ary[0],
           translation: ary[1]
@@ -96,7 +96,7 @@ const testLesson = () => {
       result ? checkedNumber++ : notCheckedNumber++;
       testResult.addRow(
         {
-          index: +index + 1,
+          number: +index + 1,
           word: wordList[index]['word'],
           isChecked: result ? '✅' : '❌',
         },
@@ -113,25 +113,39 @@ const testLesson = () => {
     console.log(`Checked word: ${checkedNumber}`);
     console.log(`Not checked word: ${notCheckedNumber}\n`);
   } else {
-    const testResult = new Table();
+    const testResult = new Table({
+      style: {
+        headerTop: { left: "╔", mid: "╦", right: "╗", other: "═" },
+        headerBottom: { left: "╟", mid: "╬", right: "╢", other: "═" },
+        tableBottom: { left: "╚", mid: "╩", right: "╝", other: "═" },
+        vertical: "║",
+      },
+      columns: [
+        { name: 'number', title: 'Number', alignment: 'center', color: 'white' },
+        { name: 'word', title: 'Word', alignment: 'left', maxLen: 50, color: 'white' },
+        { name: 'answer', title: 'Answer', alignment: 'left', maxLen: 50 },
+        { name: 'isChecked', title: 'Checked', alignment: 'center' },
+      ],
+    });
     let totalNumber = 0;
     let checkedNumber = 0;
     let notCheckedNumber = 0;
     for (const index in randomWordList()) {
-      const word = prompt(`${wordList[index]['translation']}: `);
+      const number = +index + 1 > 9 ? +index + 1 : `0${+index + 1}`;
+      const word = prompt(`${number}  ${wordList[index]['translation']}: `);
       const result = word === wordList[index]['word'];
 
       totalNumber++;
       result ? checkedNumber++ : notCheckedNumber++;
       testResult.addRow(
         {
-          index: +index + 1,
+          number: +index + 1,
           word: wordList[index]['word'],
           answer: word,
           isChecked: result ? '✅' : '❌',
         },
         {
-          color: result ? 'green' : 'red'
+          color: result ? 'green' : 'red',
         }
       );
     }

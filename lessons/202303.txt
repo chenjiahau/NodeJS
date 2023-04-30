@@ -1,43 +1,43 @@
-constraint,[n]something that controls what you do by keeping you within particular limits
-futuristic,[adj]strange and very modern, or intended or seeming to come from some imagined time in the future
-commercialization,[n]the organization of something in a way intended to make a profit
-deep-pocketed,[adj]a deep-pocketed person or organization has a lot of money to spend
-energy efficient,[adj]using little electricity, gas
-liter,[n]a unit for measuring the volume of a liquid or a gas, equal to 1,000 cubic centimetres
-inception,[n]the beginning of an organization or official activity
-conventional,[adj]traditional and ordinary
-dawn,[n]the period in the day when light from the sun begins to appear in the sky
-commuter,[n]someone who regularly travels between work and home	
-gravity,[n]the force that attracts objects towards one another, especially the force that makes things fall to the ground
-men,[v]to man something such as a machine or vehicle is to be present in order to operate it
-throw your hat into the ring,[phr]to announce your intention of entering a competition or election
-press release,[n]a public statement given to the press to publish if they wish
-ridicule,[v]to laugh at someone in an unkind way
-prescribe,[v](of a doctor) to say what medical treatment someone should have
-prescription,[n]a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs
-dosage,[n]the amount of medicine that you should take at one time
-dose,[n]a measured amount of something such as medicine
-speech recognition software,[n]computer software that allows a computer to understand spoken words
-corresponding,[adj]similar to, connected with, or caused by something else
-cater to sth,[phr.v]to provide what is wanted or needed by someone or something
-cater,[v]to provide, and sometimes serve, food
-transcribe,[v]to record something written, spoken, or played by writing it down
-comprise,[v]to have as parts or members, or to be those parts or members
-algorithm,[n]a set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem
-mammoth,[adj]extremely large
-mammoth,[n]a type of large elephant, now extinct, that was covered in hair and had tusks
-working week,[n]the days or hours that a person spends working during one week
-textual,[adj]relating to written or printed material
-time-consuming,[adj]a time-consuming task takes a lot of time to do
-contextual,[adj]related to the context of something
-conscious[adj]awake, thinking, and knowing what is happening around you
-mindful,[adj]careful not to forget about something
-soil,[v]to make something dirty, especially with solid waste
-disorient,[v]to make someone confused about where they are and where they are going
-workload,[n]the amount of work to be done, especially by a particular person or machine in a period of time
-ruminate,[v]to think carefully and for a long period about something
-compulsive,[adj]doing something a lot and unable to stop doing it
-immerse,[v]to become completely involved in something
-burn-out,[n]extreme tiredness usually caused by working too much
-channel,[v]to direct something into a particular place or situation
-meditate,[v]to think calm thoughts in order to relax or as a religious activity
+constraint|[n]something that controls what you do by keeping you within particular limits
+futuristic|[adj]strange and very modern, or intended or seeming to come from some imagined time in the future
+commercialization|[n]the organization of something in a way intended to make a profit
+deep-pocketed|[adj]a deep-pocketed person or organization has a lot of money to spend
+energy efficient|[adj]using little electricity, gas
+liter|[n]a unit for measuring the volume of a liquid or a gas, equal to 1,000 cubic centimetres
+inception|[n]the beginning of an organization or official activity
+conventional|[adj]traditional and ordinary
+dawn|[n]the period in the day when light from the sun begins to appear in the sky
+commuter|[n]someone who regularly travels between work and home
+gravity|[n]the force that attracts objects towards one another, especially the force that makes things fall to the ground
+men|[v]to man something such as a machine or vehicle is to be present in order to operate it
+throw your hat into the ring|[phr]to announce your intention of entering a competition or election
+press release|[n]a public statement given to the press to publish if they wish
+ridicule|[v]to laugh at someone in an unkind way
+prescribe|[v](of a doctor) to say what medical treatment someone should have
+prescription|[n]a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs
+dosage|[n]the amount of medicine that you should take at one time
+dose|[n]a measured amount of something such as medicine
+speech recognition software|[n]computer software that allows a computer to understand spoken words
+corresponding|[adj]similar to, connected with, or caused by something else
+cater to sth|[phr.v]to provide what is wanted or needed by someone or something
+cater|[v]to provide, and sometimes serve, food
+transcribe|[v]to record something written, spoken, or played by writing it down
+comprise|[v]to have as parts or members, or to be those parts or members
+algorithm|[n]a set of mathematical instructions or rules that, especially if given to a computer, will help to calculate an answer to a problem
+mammoth|[adj]extremely large
+mammoth|[n]a type of large elephant, now extinct, that was covered in hair and had tusks
+working week|[n]the days or hours that a person spends working during one week
+textual|[adj]relating to written or printed material
+time-consuming|[adj]a time-consuming task takes a lot of time to do
+contextual|[adj]related to the context of something
+conscious|[adj]awake, thinking, and knowing what is happening around you
+mindful|[adj]careful not to forget about something
+soil|[v]to make something dirty, especially with solid waste
+disorient|[v]to make someone confused about where they are and where they are going
+workload|[n]the amount of work to be done, especially by a particular person or machine in a period of time
+ruminate|[v]to think carefully and for a long period about something
+compulsive|[adj]doing something a lot and unable to stop doing it
+immerse|[v]to become completely involved in something
+burn-out|[n]extreme tiredness usually caused by working too much
+channel|[v]to direct something into a particular place or situation
+meditate|[v]to think calm thoughts in order to relax or as a religious activity

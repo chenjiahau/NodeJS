@@ -1,16 +1,16 @@
-rigorous,[adj]careful to look at or consider every part of something to make certain it is correct or safe
-regimen,[n]any set of rules about food and exercise that someone follows, especially in order to improve their health
-reorient,[v]to change the aim or purpose of something so that it is directed at a different person or thing
-numb,[v]to make something or someone feel numb
-handler,[n]someone who carries or moves things as part of their job
-evolve,[v]to develop gradually, or to cause something or someone to develop gradually
-usher,[v]to show someone where they should go, or to make someone go where you want them to go
-usher,[n]a man who shows people where they should sit, especially at a formal event such as a wedding or at a theatre or cinema
-marching bands,[n]a group of musicians who march at the same time as playing their instruments
-nostalgic,[adj]feeling happy and also slightly sad when you think about things that happened in the past
-jittery,[adj]nervous
-intervention,[n]the action of becoming intentionally involved in a difficult situation, in order to improve it or prevent it from getting worse
-intervene,[v]to intentionally become involved in a difficult situation in order to improve it or prevent it from getting worse
-stimulant,[n]something that makes or causes something else to grow or develop
-dopamine,[n]a hormone (= chemical substance) that is made naturally in the body and may also be given as a drug
-crash,[v]if a vehicle crashes or someone crashes it, it is involved in an accident, usually a serious one in which the vehicle is damaged and someone is hurt
+rigorous|[adj]careful to look at or consider every part of something to make certain it is correct or safe
+regimen|[n]any set of rules about food and exercise that someone follows, especially in order to improve their health
+reorient|[v]to change the aim or purpose of something so that it is directed at a different person or thing
+numb|[v]to make something or someone feel numb
+handler|[n]someone who carries or moves things as part of their job
+evolve|[v]to develop gradually, or to cause something or someone to develop gradually
+usher|[v]to show someone where they should go, or to make someone go where you want them to go
+usher|[n]a man who shows people where they should sit, especially at a formal event such as a wedding or at a theatre or cinema
+marching bands|[n]a group of musicians who march at the same time as playing their instruments
+nostalgic|[adj]feeling happy and also slightly sad when you think about things that happened in the past
+jittery|[adj]nervous
+intervention|[n]the action of becoming intentionally involved in a difficult situation, in order to improve it or prevent it from getting worse
+intervene|[v]to intentionally become involved in a difficult situation in order to improve it or prevent it from getting worse
+stimulant|[n]something that makes or causes something else to grow or develop
+dopamine|[n]a hormone (= chemical substance) that is made naturally in the body and may also be given as a drug
+crash|[v]if a vehicle crashes or someone crashes it, it is involved in an accident, usually a serious one in which the vehicle is damaged and someone is hurt

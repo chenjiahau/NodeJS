@@ -1,31 +1,31 @@
-dwell on sth,[phr.v]to keep thinking or talking about something, especially something bad or unpleasant
-perfectionist,[n]a person who wants everything to be perfect and demands the highest standards possible
-work/do wonder,[phr.v]to have a very good effect
-harsh,[adj]unpleasant, unkind, cruel, or more severe than is necessary
-go against + sb,[phr.v]if a decision or vote goes against someone, they do not get the result that they wanted
-thin,[adj]having a small distance between two opposite sides
-strand,[n]a thin thread of something, often one of a few, twisted around each other to make a string or rope
-scalp,[n]the skin on the top of a person's head where hair usually grows	
-heredity,[n]the process by which characteristics are given from a parent to their child through the genes
-genetics,[n]the study of how, in all living things, the characteristics and qualities of parents are given to their children by their genes
-ray,[n]a narrow beam of light, heat, etc. traveling in a straight line from its place of origin
-freak out,[phr.v]to become or cause someone to become extremely emotional
-transplant,[v]to move something, or to be moved, from one place or person to another
-bald,[adj]with little or no hair on the head
-therapy,[n]a treatment that helps someone feel better, grow stronger, etc., especially after an illness
-perm,[n]a chemical process that makes your hair curly, or a hairstyle that is created in this way
-vista,[n]a view, especially a beautiful view from a high position
-multicultural,[adj]including people who have many different customs and beliefs
-array,[n]a large group of things or people, especially one that is attractive or causes admiration or has been positioned in a particular way
-totem,[n]an object that is respected by a group of people, especially for religious reasons
-pole,[n]a long, thin stick of wood or metal, often used standing straight up in the ground to support things
-eclectic,[adj]methods, beliefs, ideas, etc. that are eclectic combine whatever seem the best or most useful things from many different areas or systems, rather than following a single system
-preference,[n]the fact that you like something or someone more than another thing or person
-stereotype,[v]to have a set idea about what a particular type of person is like, especially an idea that is wrong
-attire,[n]clothes, especially of a particular or formal type	
-outfit,[n]a set of clothes worn for a particular occasion or activity
-breathtaking,[adj]extremely exciting, beautiful, or surprising
-indigenous,[adj]naturally existing in a place or country rather than arriving from another place
-kick-off,[n]the time when a game of football starts, or when it begins again after it has stopped because of a goal, etc
-teeming,[adj]if a place is teeming, it is full of people
-livability,[n]the degree to which a place is suitable or good for living in
+dwell on sth|[phr.v]to keep thinking or talking about something, especially something bad or unpleasant
+perfectionist|[n]a person who wants everything to be perfect and demands the highest standards possible
+work/do wonder|[phr.v]to have a very good effect
+harsh|[adj]unpleasant, unkind, cruel, or more severe than is necessary
+go against + sb|[phr.v]if a decision or vote goes against someone, they do not get the result that they wanted
+thin|[adj]having a small distance between two opposite sides
+strand|[n]a thin thread of something, often one of a few, twisted around each other to make a string or rope
+scalp|[n]the skin on the top of a person's head where hair usually grows	
+heredity|[n]the process by which characteristics are given from a parent to their child through the genes
+genetics|[n]the study of how, in all living things, the characteristics and qualities of parents are given to their children by their genes
+ray|[n]a narrow beam of light, heat, etc. traveling in a straight line from its place of origin
+freak out|[phr.v]to become or cause someone to become extremely emotional
+transplant|[v]to move something, or to be moved, from one place or person to another
+bald|[adj]with little or no hair on the head
+therapy|[n]a treatment that helps someone feel better, grow stronger, etc., especially after an illness
+perm|[n]a chemical process that makes your hair curly, or a hairstyle that is created in this way
+vista|[n]a view, especially a beautiful view from a high position
+multicultural|[adj]including people who have many different customs and beliefs
+array|[n]a large group of things or people, especially one that is attractive or causes admiration or has been positioned in a particular way
+totem|[n]an object that is respected by a group of people, especially for religious reasons
+pole|[n]a long, thin stick of wood or metal, often used standing straight up in the ground to support things
+eclectic|[adj]methods, beliefs, ideas, etc. that are eclectic combine whatever seem the best or most useful things from many different areas or systems, rather than following a single system
+preference|[n]the fact that you like something or someone more than another thing or person
+stereotype|[v]to have a set idea about what a particular type of person is like, especially an idea that is wrong
+attire|[n]clothes, especially of a particular or formal type	
+outfit|[n]a set of clothes worn for a particular occasion or activity
+breathtaking|[adj]extremely exciting, beautiful, or surprising
+indigenous|[adj]naturally existing in a place or country rather than arriving from another place
+kick-off|[n]the time when a game of football starts, or when it begins again after it has stopped because of a goal, etc
+teeming|[adj]if a place is teeming, it is full of people
+livability|[n]the degree to which a place is suitable or good for living in
