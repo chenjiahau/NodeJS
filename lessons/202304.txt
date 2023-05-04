@@ -2,11 +2,12 @@ dwell on sth|[phr.v]to keep thinking or talking about something, especially some
 perfectionist|[n]a person who wants everything to be perfect and demands the highest standards possible
 work/do wonder|[phr.v]to have a very good effect
 harsh|[adj]unpleasant, unkind, cruel, or more severe than is necessary
-go against + sb|[phr.v]if a decision or vote goes against someone, they do not get the result that they wanted
+go against sb|[phr.v]if a decision or vote goes against someone, they do not get the result that they wanted
 thin|[adj]having a small distance between two opposite sides
 strand|[n]a thin thread of something, often one of a few, twisted around each other to make a string or rope
 scalp|[n]the skin on the top of a person's head where hair usually grows
 heredity|[n]the process by which characteristics are given from a parent to their child through the genes
+genetic|[adj]belonging or relating to genes (= parts of the DNA in cells) received by each animal or plant from its parents
 genetics|[n]the study of how, in all living things, the characteristics and qualities of parents are given to their children by their genes
 ray|[n]a narrow beam of light, heat, etc. traveling in a straight line from its place of origin
 freak out|[phr.v]to become or cause someone to become extremely emotional
