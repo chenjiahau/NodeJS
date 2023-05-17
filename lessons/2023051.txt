@@ -1,4 +1,4 @@
-get through|[phr.v]to succeed in talking to someone on the phone
+get through|[phr.v]to succeed in making someone understand something
 go through|[phr.v]If a law, plan, or deal goes through, it is officially accepted or approved
 faint|[n]the act of suddenly becoming unconscious
 light-headed|[adj]If you feel light-headed, you feel weak and as if you are going to lose your balance
@@ -15,8 +15,8 @@ impediment|[n]something that makes progress, movement, or achieving something di
 torture|[v]to cause great physical or mental pain to someone intentionally
 consume|[v]to use fuel, energy, or time, especially in large amounts
 be consumed by/with sth|[adj]to have so much of a feeling that it affects everything you do
-consumption|[n]the amount used or eaten
-consumable|[adj]possible to eat, drink, or use up completely
+consumption|[n]an amount of something that is used, or the process of using something, esp. so that there is less of it
+consumable|[adj]bought regularly because of being quickly used and needing to be replaced often
 embark|[v]to go onto a ship
 manifest|[v]to show something clearly, through signs or actions
 manifestation|[n]a sign of something existing or happening
