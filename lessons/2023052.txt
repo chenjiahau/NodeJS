@@ -1,11 +1,14 @@
 spike|[n]a very high amount, price, or level, usually before a fall
 drench|[v]to make someone or something extremely wet
-religiously|[adj]if you do something religiously, you do it regularly
+religion|[n]the belief in and worship of a god or gods, or any such system of belief and worship
+religious|[adj]relating to religion
+religiously|[adj]in ways or subjects relating to religion
 discontent|[adj]dissatisfied
 barrier|[n]a long pole, fence, wall, or natural feature, such as a mountain or sea, that stops people from going somewhere
 entice|[v]to persuade someone to do something by offering them something pleasant
 stagnant|[adj](of water or air) not flowing or moving, and smelling unpleasant
 conquer|[v]to take control or possession of foreign land, or a group of people, by force
+drowse|[v]to sleep lightly for a short time, or to be almost asleep
 drowsy|[adj]being in a state between sleeping and being awake
 inflate|[v]to make something increase in size by filling it with air
 deflate|[v]if something that has air or gas inside it deflates, or is deflated, it becomes smaller because it loses the air or gas.
