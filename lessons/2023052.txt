@@ -2,7 +2,7 @@ spike|[n]a very high amount, price, or level, usually before a fall
 drench|[v]to make someone or something extremely wet
 religion|[n]the belief in and worship of a god or gods, or any such system of belief and worship
 religious|[adj]relating to religion
-religiously|[adj]in ways or subjects relating to religion
+religiously|[adv]in ways or subjects relating to religion
 discontent|[adj]dissatisfied
 barrier|[n]a long pole, fence, wall, or natural feature, such as a mountain or sea, that stops people from going somewhere
 entice|[v]to persuade someone to do something by offering them something pleasant
