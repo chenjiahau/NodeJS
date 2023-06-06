@@ -9,10 +9,6 @@
     "serve": "cd public && web-dev-server --node-resolve --watch --open --app-index index.html",
     "dev": "npm run ts & npm run serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/chenjiahau/NodeJS.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
