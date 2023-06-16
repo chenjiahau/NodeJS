@@ -21,3 +21,11 @@ opponent|[n]a person who someone is competing against in a sports event
 synthetic|[adj]synthetic products are made from artificial substances, often copying a natural product.
 concoction|[n]the result or process of concocting something
 coping mechanism|[n]an adaptation to environmental stress that is based on conscious or unconscious choice and that enhances control over behavior or gives psychological comfort
+cramp|[v]to limit someone, especially to prevent them from enjoying a full life
+cramped|[adj]not having enough space or time
+midlife|[n]middle age
+premise|[n]an idea or theory on which a statement or action is based
+constitute|[v]to form or make something
+grief|[n]very great sadness, especially at the death of someone
+
+
