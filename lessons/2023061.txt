@@ -8,7 +8,7 @@ fall victim to sth|[phr.v]to be hurt, damaged, or killed because of something or
 elude|[v]if something that you want eludes you, you do not succeed in achieving it
 projection|[n]the act of projecting a film or an image onto a screen or wall
 skew|[v]to cause something to be not straight or exact
-skewed|[adj]=not accurate or exact
+skewed|[adj]not accurate or exact
 restless|[adj]unwilling or unable to stay still or to be quiet and calm, because you are worried or bored
 explore|[v]to search and discover(about something)
 exploration|[n]the activity of searching and finding out about something
@@ -27,5 +27,3 @@ midlife|[n]middle age
 premise|[n]an idea or theory on which a statement or action is based
 constitute|[v]to form or make something
 grief|[n]very great sadness, especially at the death of someone
-
-
